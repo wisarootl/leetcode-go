@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// https://leetcode.com/problems/can-place-flowers/description/
+
 func canPlaceFlowers(flowerbed []int, n int) bool {
 	count := 0
 	for i := 0; i < len(flowerbed); i++ {

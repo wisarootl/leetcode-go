@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// https://leetcode.com/problems/find-the-highest-altitude/description/
+
 func largestAltitude(gain []int) int {
 	maxAltitude := 0
 	currentAltitude := 0
